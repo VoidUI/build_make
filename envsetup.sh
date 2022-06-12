@@ -739,7 +739,7 @@ function lunch()
 
     if ! check_product $product
     then
-        # if we can't find a product, try to grab it off the PixelExperience GitHub
+        # if we can't find a product, try to grab it off the VoidUI GitHub
         T=$(gettop)
         cd $T > /dev/null
         vendor/aosp/build/tools/roomservice.py $product
